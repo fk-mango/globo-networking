@@ -62,5 +62,5 @@ resource "aws_security_group" "ingress" {
   tags                   = local.common_tags
   tags_all               = {}
   #  vpc_id                 = "vpc-0de246f46e87a281f"
-  vpc_id                 = module.main.vpc_id
+  vpc_id = module.main.vpc_id
 }

@@ -9,9 +9,9 @@ variable "region" {
 }
 
 variable "environment" {
-    type        = string
-    description = "(Optional) Environment to use. Default: dev"
-    default     = "development"
+  type        = string
+  description = "(Optional) Environment to use. Default: dev"
+  default     = "development"
 }
 
 variable "prefix" {
