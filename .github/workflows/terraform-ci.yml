@@ -7,8 +7,8 @@ env:
   TF_INPUT: false # prevents TF from prompting for input
 
 jobs:
-  terraform:
-    name: 'Terraform'
+  terraform-ci:
+    name: 'Terraform CI'
     runs-on: ubuntu-latest
 
     # Use the Bash shell regardless whether the GitHub Actions runner is 
