@@ -1,6 +1,10 @@
 name: 'Terraform CI'
 
-on: push
+on:
+  push:
+    paths:
+      - '*.tf'
+
 
 env:
   TF_LOG: INFO
