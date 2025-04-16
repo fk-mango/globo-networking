@@ -41,3 +41,6 @@ terraform.rc
 
 # backend files
 backend_local.tf
+
+# imports file
+imports.tf
